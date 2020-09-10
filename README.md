@@ -14,6 +14,10 @@
     - other
 
 
-##Gitフロー
+##開発概要&Gitフロー
 
-developブランチから作業ブランチは作成（feature以下に作成）
+サーバー起動コマンド
+php artisan serve
+これでhttp://127.0.0.1:8000/にアクセス
+
+developブランチから作業ブランチは作成（feature以下に作成
