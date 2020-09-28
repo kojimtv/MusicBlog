@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/js', function () {
+Route::get('/testjs', function () {
     return view('test/js');
 });
 
