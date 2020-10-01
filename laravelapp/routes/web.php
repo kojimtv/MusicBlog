@@ -17,10 +17,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/testjs', function () {
-    return view('test/js');
-});
-
 Route::get('/home', function () {
     return view('index');
+});
+
+Route::get('/post', function () {
+    return view('post/index');
+});
+Route::get('/list', function () {
+    return view('index');
+});
+Route::get('/other', function () {
+    return view('index');
+});
+
+Route::get('/testjs', function () {
+    return view('test/js');
 });

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.wrap {
+width:auto;
+margin:0px auto;
+}
+header {
+border:dashed 1px #999;
+}
+.side_navi {
+float:left;
+width:198px;
+height:498px;
+border:dashed 1px #999;
+margin:10px 10px 10px 0px;
+}
+.contents {
+float:left;
+width:748px;
+height:498px;
+border:dashed 1px #999;
+margin:10px 0px 10px 0px;
+}
+footer {
+clear:both;
+border:dashed 1px #999;
+}
