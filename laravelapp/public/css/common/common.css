@@ -7,13 +7,24 @@ margin:0px auto;
 header {
 border:dashed 1px #999;
 }
+/* サイドナビ */
 .side_navi {
 float:left;
 width:198px;
 height:498px;
 border:dashed 1px #999;
 margin:10px 10px 10px 0px;
+text-align: center;
 }
+.side_navi .blog_title{
+    margin: 15 auto 30;
+    font-size: 26px;
+    font-weight: bold;
+}
+.side_navi .side_menu ul li{
+    margin: 10 auto;
+}
+/* コンテンツ */
 .contents {
 float:left;
 width:748px;
