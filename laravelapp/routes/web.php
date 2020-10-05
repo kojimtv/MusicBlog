@@ -25,13 +25,11 @@ Route::get('/post', function () {
     return view('post/input');
 });
 Route::get('/post/input', 'inputController@index');
+Route::get('/list', 'listController@index');
 // Route::get('/post/input', function () {
 //     return view('post/input');
 // });
 
-Route::get('/list', function () {
-    return view('index');
-});
 Route::get('/other', function () {
     return view('index');
 });
